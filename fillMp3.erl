@@ -6,6 +6,7 @@
         fill/3
     ]).
 
+%TODO: randomize on artist and then album instead of only album
 fill(DirtyPath, FillPath, Size) ->
     Path = DirtyPath ++ "/",
 
